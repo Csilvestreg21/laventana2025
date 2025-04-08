@@ -1,0 +1,6 @@
+[
+    { "id": 1, "nombre": "Bandeja Paisa", "precio": 25000 },
+    { "id": 2, "nombre": "Ajiaco", "precio": 22000 },
+    { "id": 3, "nombre": "Arepa Rellena", "precio": 10000 },
+    { "id": 4, "nombre": "Jugo Natural", "precio": 5000 }
+  ]
