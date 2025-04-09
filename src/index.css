@@ -3,4 +3,14 @@ body {
     padding: 0;
     background: #fffaf5;
   }
+.btn-menu {
+    display: inline-block;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    background-color: #800000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+  }
   

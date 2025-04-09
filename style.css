@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #fff;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+    border: 2px solid #800000;
+    background-color: #fffdf7;
+  }
+  
+  header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    color: #800000;
+    margin-bottom: 0;
+  }
+  
+  header h2 {
+    font-size: 1rem;
+    color: #800000;
+    letter-spacing: 2px;
+  }
+  
+  .horarios p {
+    margin: 0.3rem 0;
+  }
+  
+  .fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem 0;
+  }
+  
+  .fotos img {
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    margin-top: 1rem;
+    color: #333;
+  }
+  .btn-menu {
+    display: inline-block;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    background-color: #800000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+  }

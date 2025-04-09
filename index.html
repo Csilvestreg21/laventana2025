@@ -1,12 +1,35 @@
+<!-- src/index.html -->
 <!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Restaurante El Sabor</title>
+    <title>La Ventana</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div class="container">
+      <header>
+        <h1>La Ventana</h1>
+        <h2>Domicilios</h2>
+      </header>
+
+      <section class="horarios">
+        <p>Prestamos servicio de</p>
+        <p>Lunes a Sábado</p>
+        <p>8:00am a 11:00am - Desayunos</p>
+        <p>11:30am a 3:30pm - Almuerzos</p>
+      </section>
+
+      <a href="/src/menu.html" class="btn-menu">Ver Menú</a>
+
+      <footer>
+        <section class="fotos">
+          <img src="/public/images/menu.jpg" alt="Sopa" />
+          <!-- Agrega más platos aquí -->
+        </section>
+        <p><strong>Comunícate:</strong></p>
+        <p>301 326 69 19 - 313 457 11 67</p>
+      </footer>
+    </div>
   </body>
 </html>

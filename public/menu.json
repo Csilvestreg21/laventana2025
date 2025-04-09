@@ -1,6 +1,34 @@
 [
-    { "id": 1, "nombre": "Bandeja Paisa", "precio": 25000 },
-    { "id": 2, "nombre": "Ajiaco", "precio": 22000 },
-    { "id": 3, "nombre": "Arepa Rellena", "precio": 10000 },
-    { "id": 4, "nombre": "Jugo Natural", "precio": 5000 }
-  ]
+  {
+    "id": "acompanamiento",
+    "opciones": ["Sopa de arroz", "Gelatina"],
+    "incluido": true
+  },
+  {
+    "id": "base",
+    "nombre": "Base",
+    "opciones": ["Frijol", "Alverja", "Fetuchini en salsa bechamel", "Verdura Fría"],
+    "incluido": true
+  },
+  {
+    "id": "proteina",
+    "nombre": "Proteína",
+    "opciones": ["Pollo Sudado", "Carne Asada", "Bandeja con Pechuga"],
+    "incluido": true
+  },
+  {
+    "id": "especial",
+    "opciones": [
+      { "nombre": "Mojarra", "precio": 20000 },
+      { "nombre": "Churrasco", "precio": 20000 },
+      { "nombre": "Bandeja Paisa", "precio": 20000 }
+    ],
+    "incluido": false
+  },
+  {
+    "id": "bebida",
+    "nombre": "Bebida",
+    "opciones": ["Jugo de Lulo", "Gaseosa"],
+    "incluido": true
+  }
+]
